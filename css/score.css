@@ -1,0 +1,130 @@
+body{
+	background-color: white;
+    font-family: sans-serif;
+}
+
+
+/* Partie Score */
+
+#conteneur_titre_score{
+	width: 500px;
+	margin: auto;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+#conteneur_retour{
+    width: 500px;
+    margin: auto;
+}
+
+img{
+    width: 80px;
+    margin: auto;
+}
+
+/* Rond barre de score */
+
+#conteneur_barre_score{
+
+	width: 500px;
+	margin:auto;
+}
+
+#partie_barre_score {
+    background-color:#e8e8e8;
+}
+
+.contenu_barre_score {
+    text-align:center;
+}
+
+/* PROGRESS BAR A AMELIORER / TROUVER SOLUTION*/
+.progressEmpty{
+    background-color:#e6e6e6;
+    border-radius:12px;
+    width:150px;
+}
+.progressValue{
+    color:white;
+    background-color:green;
+    border-radius:12px;
+    font-size:12px;
+    padding:4px;
+}
+
+/* Pseudo de la personne, boutons : rejouer, menu */
+
+#conteneur_pseudo{
+
+	width: 500px;
+	margin: auto;
+}
+
+/* LE PSEUDO */
+
+form{
+	text-align: center;
+
+}
+
+input[type="text"] {
+	width: 200px;
+    border-color: #e3184d;
+    border-radius:5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*input[type="submit"] {
+ 	background-color:#e3184d;
+ 	border-color:#e3184d;
+    width: 200px;
+    color: white; 
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto;
+}*/
+
+#barre{
+    text-align: center;
+    background-color: #39c042;
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+    margin: 10px auto;
+}
+
+
+ul{
+	list-style:none;
+}
+
+#clear{
+	clear: both;
+}
+
+#rejouer{
+	text-align: center;
+	background-color: #0071bc;
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+    margin: 10px auto;
+}
+
+
+#menu{
+	text-align: center;
+    background-color: #39c042;
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+    margin: 10px auto;
+}
+

@@ -1,0 +1,374 @@
+/* CSS GENERALE */
+body{
+	font-family:sans-serif;
+	margin:0px;
+	padding:0px;
+	font-family:Microsoft Sans Serif;
+}
+
+
+
+.contenuBack img{
+	width:80px;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.Mutlicolor li:nth-child(4n+0){
+	background-color:#39c042;
+}
+.Mutlicolor li:nth-child(4n+1){
+	background-color:#0071bc;
+}
+.Mutlicolor li:nth-child(4n+2){
+	background-color:#ee5c06;
+}
+.Mutlicolor li:nth-child(4n+3){
+	background-color:#e3184d;
+}
+
+
+/* CSS DE LA PARTIE ACCUEIL */
+
+#partieAccueil {
+}
+#conteneurAccueil{
+	width:500px;
+	margin:auto;
+}
+#structureAccueil{
+	
+}
+.contenuAccueil img{
+	margin-top:10px;
+	height:150px;
+	margin-left:180px;
+	
+}
+.contenuAccueil h1{
+	text-align:center;
+}
+.contenuAccueil ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.contenuAccueil li{
+	text-align:center;
+	margin:5px auto;
+	background-color:red;
+	width:200px;
+	padding:20px;
+	border-radius:10px;
+}
+
+
+/* CSS DE LA LEVEL */
+
+#partieLevel {
+}
+#conteneurLevel{
+	width:500px;
+	margin:auto;
+}
+#structureLevel{
+	
+}
+.contenuLevel h1{
+	text-align:center;
+}
+.contenuLevel ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.contenuLevel li{
+	text-align:center;
+	margin:5px auto;
+	width:200px;
+	padding:20px;
+	border-radius:10px;
+}
+.contenuLevel td[colspan="2"]{
+	text-align:center;
+}
+.contenuLevel table{
+	color:white;
+}
+/* PROGRESS BAR A AMELIORER / TROUVER SOLUTION*/
+.progressEmpty{
+	background-color:#e6e6e6;
+	border-radius:12px;
+	width:150px;
+	height:15px;
+}
+.progressValue{
+	color:white;
+	background-color:green;
+	border-radius:12px;
+	height:15px;
+}
+
+.progressEmptyGAME{
+    background-color:#e6e6e6;
+    border-radius:12px;
+    width:400px;
+}
+.progressValueGAME{
+    background-color:blue;
+    border-radius:12px;
+    font-size:12px;
+}
+
+#progressTime{
+    background-color:#e6e6e6;
+    border-radius:12px;
+    width:900px;
+	margin-left:250px;
+}
+#progressValueTime{
+    background-color:red;
+    border-radius:12px;
+    font-size:12px;
+}
+
+/*CSS TABLEAU DES SCORES */
+
+.contenu_menu button{
+	padding: 10px;
+	font-size: 10px;
+	background-color: white;
+	border : none;
+}
+
+.contenu_menu button{
+	padding: 10px;
+	font-size: 10px;
+	background-color: white;
+	border : none;
+}
+
+#partieRank {
+}
+
+#conteneurRank{
+	width:500px;
+	margin:auto;
+}
+#structureRank{
+	
+}
+.contenuRank {
+	text-align:center;
+}
+.contenuRank ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.contenuRank li{
+	text-align:center;
+	margin:5px auto;
+	width:200px;
+	padding:20px;
+	border-radius:10px;
+}
+.contenuRank li:last-child{
+	background-color:transparent;
+	padding:5px;
+}
+.contenuRank h5{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	color:white;
+	font-size:14px;
+	float:right;
+}
+.contenuRank b{
+	color:white;
+	font-size:14px;
+	float:left;
+}
+.contenuRank span{
+	color:white;
+	font-size:16px;
+	
+}
+
+button{
+	background-color:white;
+	border:none;
+	font-size:16px;
+}
+
+/* Partie Score */
+
+#contenu_result{
+	text-align:center;
+	margin-left:50px;
+}
+
+#conteneur_titre_score{
+	width: 500px;
+	margin: auto;
+}
+
+.contenu_titre_score h1{
+	text-align: center;
+}
+
+#conteneur_retour{
+    width: 500px;
+    margin: auto;
+}
+
+.contenu_retour img{
+    width: 80px;
+    margin: auto;
+}
+
+/* Rond barre de score */
+
+#conteneur_barre_score{
+
+	width: 500px;
+	margin: 20px auto;
+}
+
+.contenu_barre_score {
+    text-align:center;
+}
+
+/* Pseudo de la personne, boutons : rejouer, menu */
+
+#validation{
+    text-align: center;
+    background-color: #e3184d;
+	border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+}
+
+
+#conteneur_pseudo{
+
+	width: 500px;
+	margin: auto;
+}
+
+/* LE PSEUDO */
+
+.contenu_pseudo li{
+	text-align:center;
+	margin:10px auto;
+}
+
+.contenu_pseudo form{
+	text-align: center;
+
+}
+
+.contenu_pseudo input[type="text"] {
+	width: 200px;
+    border-color: #e3184d;
+    border-radius:5px;
+    padding: 10px;
+}
+
+
+.contenu_pseudo ul{
+	list-style:none;
+	padding:0px;
+}
+
+#clear{
+	clear: both;
+}
+
+#rejouer{
+	text-align: center;
+	background-color: #0071bc;
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+}
+
+
+#menu{
+	text-align: center;
+    background-color: #39c042;
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    width: 200px;
+}
+
+
+/*CSS JEU */
+
+#conteneurGame{
+	width:1600px;
+	margin:auto;
+}
+
+#question{
+	text-align:center;
+}
+
+#image{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
+#image img{
+	width:500px;
+	margin:5px;
+}
+
+
+/* CSS INSTRUCTIONS */
+
+#partieInstruction {
+	background-color:white;
+}
+#conteneurInstruction{
+	background-color:white;
+	width:500px;
+	margin:auto;
+}
+
+.contenuInstruction h1{
+	text-align:center;
+}
+
+.contenuInstruction ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.contenuInstruction li{
+	list-style-type: none; 
+	text-align:center;
+	margin:5px auto;
+	background-color:red;
+	width:200px;
+	padding:20px;
+	border-radius:10px;
+}
+
+.contenuInstruction p{
+	color: white;
+}
+
+.contenuInstruction h1{
+	color: white;
+	font-size: 20px;
+}
