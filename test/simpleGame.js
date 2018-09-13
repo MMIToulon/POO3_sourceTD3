@@ -2,10 +2,6 @@ var zone_question = document.getElementById("question").firstElementChild;
 var zone_image = document.getElementById("image");
 var zone_score = document.getElementById("score");
 
-
-
-
-
 var	nom1 = "Migliaccio";
 var prenom1 = 'Damien';
 var photo1 = 'images/500px/MIGLIACCIODamien_neutre.jpg';
@@ -93,7 +89,7 @@ function start() {
 
 /* a la fin du jeu, on efface toutes les photos*/
 function endgame(){
-	for (i=0;i<=tabEtudiants.length-1;i=i+1) {
+	for (i=0;i<=3;i++) {
 	zone_image.removeChild(zone_image.firstElementChild);
 	}
 }
@@ -104,9 +100,12 @@ var nbBonneRep=0;
 function play() {
 	if(this.id == "ok") {
 		if(nbBonneRep<10){
-			start();
+			
 			nbBonneRep ++;
 			zone_score.innerHTML = nbBonneRep;
+			endgame();
+			start();
+
 
 		}
 		else {
